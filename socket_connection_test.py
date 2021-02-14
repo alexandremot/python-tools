@@ -3,7 +3,7 @@ import socket
 
 def port_test():
 	s = socket.socket()
-	address = '127.0.0.1'
+	address = '18.231.152.211'
 	port = 5000  # port number is a number, not string
 	try:
 		s.connect((address, port)) 
